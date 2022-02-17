@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin-docs 4.0.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2022-02-15 18:25+0000\n"
+"POT-Creation-Date: 2022-02-17 20:23+0000\n"
 "PO-Revision-Date: 2022-02-17 10:35+0000\n"
 "Last-Translator: William Desportes <williamdes@wdes.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/phpmyadmin/master/"
@@ -4796,12 +4796,12 @@ msgstr ""
 "Ceci indique habituellement qu'il y a une erreur de syntaxe, merci de "
 "vérifier si une erreur s'affiche plus bas."
 
-#: libraries/classes/Config.php:1227
+#: libraries/classes/Config.php:1228
 #, php-format
 msgid "Invalid server index: %s"
 msgstr "Index de serveur invalide : %s"
 
-#: libraries/classes/Config.php:1240
+#: libraries/classes/Config.php:1241
 #, php-format
 msgid "Server %d"
 msgstr "Serveur %d"
@@ -13787,9 +13787,18 @@ msgstr "Le profil a été modifié."
 msgid "Password is too long!"
 msgstr "Le mot de passe est trop long !"
 
-#: libraries/classes/UserPreferences.php:167
+#: libraries/classes/UserPreferences.php:173
 msgid "Could not save configuration"
 msgstr "Impossible d'enregistrer la configuration"
+
+#: libraries/classes/UserPreferences.php:184
+#, fuzzy
+#| msgid ""
+#| "%sCreate%s the phpMyAdmin configuration storage in the current database."
+msgid "The phpMyAdmin configuration storage database could not be accessed."
+msgstr ""
+"%sCréer%s le stockage de configurations phpMyAdmin dans la base de données "
+"active."
 
 #: libraries/classes/Util.php:131
 #, php-format

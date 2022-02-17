@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 5.3.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2022-02-15 18:25+0000\n"
+"POT-Creation-Date: 2022-02-17 20:23+0000\n"
 "PO-Revision-Date: 2022-02-17 10:35+0000\n"
 "Last-Translator: Péter Báthory <bathory86p@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/phpmyadmin/"
@@ -4898,12 +4898,12 @@ msgstr ""
 "Ez általában azt jelenti, hogy szintaktikai hiba áll fenn, ellenőrizze az "
 "alább látható hibákat."
 
-#: libraries/classes/Config.php:1227
+#: libraries/classes/Config.php:1228
 #, php-format
 msgid "Invalid server index: %s"
 msgstr "Érvénytelen kiszolgálóindex: %s"
 
-#: libraries/classes/Config.php:1240
+#: libraries/classes/Config.php:1241
 #, php-format
 msgid "Server %d"
 msgstr "Kiszolgáló %d"
@@ -13933,9 +13933,16 @@ msgstr "A profil frissítése megtörtént."
 msgid "Password is too long!"
 msgstr "A jelszó túl hosszú!"
 
-#: libraries/classes/UserPreferences.php:167
+#: libraries/classes/UserPreferences.php:173
 msgid "Could not save configuration"
 msgstr "Nem menthetők el a módosítások"
+
+#: libraries/classes/UserPreferences.php:184
+#, fuzzy
+#| msgid ""
+#| "%sCreate%s the phpMyAdmin configuration storage in the current database."
+msgid "The phpMyAdmin configuration storage database could not be accessed."
+msgstr "A phpMyAdmin beállítástároló %slétrehozása%s a jelenlegi adatbázisban."
 
 #: libraries/classes/Util.php:131
 #, php-format
